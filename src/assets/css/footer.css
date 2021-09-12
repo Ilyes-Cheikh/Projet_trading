@@ -1,0 +1,46 @@
+@import 'root.css';
+.footer-container{
+    height: 380px;
+    width: 100%;
+    display: flex;
+    background: var(--gradiant);
+    padding: 50px;
+}
+.footer-logo-container{
+    padding-top: 50px;
+}
+.footer-logo-container img{
+    width: 270px;
+}
+.footer-col{
+    margin: 0px 5%;
+    
+    
+}
+
+.footer-col h3{
+    font-family: Airbnb Cereal App book;
+}
+.footer-col p{
+    font-family: Airbnb Cereal App book;
+}
+
+@media (max-width: 900px){
+    .footer-container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color:  var(--text-secondary);
+    }
+    .footer-logo-container{
+        padding-top: 0px;
+        padding-right: 0px;
+    }
+    .footer-col{
+        margin: 0px 0px;
+    }
+}

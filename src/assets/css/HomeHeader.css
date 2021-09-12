@@ -1,0 +1,108 @@
+@import "root.css";
+
+.homeHeader {
+  width: 100vw;
+  height: 150vh;
+  background-image: url("../images/homeBg.png");
+  background-repeat: no-repeat;
+  background-position-y: 120px;
+  background-size: cover;
+}
+
+.homeContainer {
+  width: 100vw;
+  height: 90vh;
+  position: relative;
+  top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.homeImage img{
+  width: 40vw;
+}
+
+.homeContent {
+  width: 40vw;
+  text-align: center;
+  margin-right: 10%;
+}
+
+.homeTitle {
+  color: var(--bg-primary);
+  font-family: "Airbnb Cereal App Extra Bold";
+  font-size: 1.75rem;
+}
+
+.homeText {
+  color: var(--text-primary);
+  font-size: 1.5rem;
+  font-family: "Airbnb Cereal App Extra Medium";
+}
+
+.btn-custom {
+  font-family: "Airbnb Cereal App Medium";
+  color: #fff;
+  background-image: var(--gradiant);
+  padding: 14px 34px;
+  letter-spacing: 1px;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 25px;
+  border: 0;
+  text-decoration: none;
+  margin-top: 5%;
+  transition: none;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom.active {
+  color: #fff;
+  background-image: none;
+  background-color: var(--bg-primary);
+}
+
+.btn:active,
+.btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: none;
+  outline-offset: none;
+}
+
+@media screen and (max-width: 1130px) {
+  .homeContainer {
+    height: 700px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .homeContainer {
+    flex-direction: column-reverse;
+  }
+  .homeImage img {
+    width: 60vw;
+  }
+  .homeContent {
+    width: 70vw;
+    margin-right: 0% !important;
+  }
+}
+
+

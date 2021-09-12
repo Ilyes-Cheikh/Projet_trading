@@ -1,0 +1,69 @@
+.analytics-Image {
+  width: 430px;
+  z-index: 500;
+}
+.AboutUs-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40vh;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.analytics-Text {
+  border-radius: 20px !important;
+  padding-top: 40px;
+  padding-right: 60px;
+  padding-bottom: 20px;
+  margin-left: -270px;
+  background: var(--gradiant);
+  width: 70%;
+  padding-left: 300px;
+}
+.Aboutus-Text {
+  margin-left: 30px;
+  color: white;
+  font-family: "Airbnb Cereal App Light";
+}
+.AboutUs-Title {
+  color: white !important;
+  font-family: "Airbnb Cereal App Book";
+  text-align: center;
+}
+.AboutUs-line {
+  margin-top: -2px;
+  color: white !important;
+  opacity: 100%;
+  width: 20%;
+  height: 3px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutUsContent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 980px) {
+  .AboutUs-Container {
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .analytics-Text {
+    width: 90%;
+    padding-left: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 280px;
+  }
+  .analytics-Image {
+    margin-bottom: -40vh;
+    width: 60%;
+  }
+  .Aboutus-Text{
+      margin-left: 0;
+  }
+}

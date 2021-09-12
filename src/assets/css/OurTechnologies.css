@@ -1,0 +1,172 @@
+@import 'root.css';
+.techpage{
+	background-color: #A1A1A7;
+	height:1000px;
+	display: flex;
+	flex-direction: row;
+
+}
+.ourtechnologies {
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    font-family:Airbnb Cereal App Light ;
+    color: white;
+   /* font-size: 35px; */
+	margin-left: 15%;
+
+  }
+
+  .ourtechnologies h1:after {
+    width: 170px;
+    height: 3px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 25px;
+	margin-left: 42%;
+   
+    background-color: white;
+  }  
+.technologies-container{
+	position: absolute;
+	margin-top: 10%;
+	margin-left: 20px;
+
+	height: 100%;
+	width: 70%;
+}
+.technologie{
+
+height: 200px;
+
+padding-top: 3.5%;
+display: flex;
+flex-direction: row;
+
+}
+
+.shaped-rectangle{
+	position: absolute;
+	transform: translateX(150px);
+	margin-top: 30px;
+	background: white;
+	height: 90px;
+	width: 550px;
+	clip-path: polygon(0 0, 100% 0%, 82% 99%, 0% 100%);
+	padding-left: 50px;
+	padding-top: 5px;
+	
+}
+.cercle{
+	clip-path: circle(50% at 50% 50%);
+	background: var(--gradiant) ;
+    position: absolute;
+	transform: translateX(20%);
+	z-index: 1;
+	
+	
+}
+.technologie-title{
+	color: var(--bg-primary);
+	font-family: Airbnb Cereal App Medium ;
+	font-size: 30px;
+	
+
+}
+.technologie-detail{
+	color: var(--text-primary);
+	font-family:Airbnb Cereal App light ;
+	font-size: 15px;
+}
+.techimage{
+	height: 100%;
+	width: 100%;
+
+}
+.dots_blanc{
+	
+	margin-left: -770px;
+
+}
+@media screen and (max-width: 970px) {
+	.techpage{
+		
+		height:500px
+	}
+	.technologies-container{
+		position: absolute;
+		margin-top: 10%;
+		margin-left: 10%;
+	
+		height: 400px;
+		width: 70%;
+	}
+	.ourtechnologies {
+		text-align: center;
+		text-transform: uppercase;
+		position: relative;
+		
+		color: white;
+		font-size: 5px ;
+		margin-left: 15%;
+	
+		
+	  }
+	
+	  .ourtechnologies h1:after {
+		width: 170px;
+		height: 2px;
+		display: block;
+		content: "";
+		position: relative;
+		margin-top: 25px;
+		margin-left: 15%;
+	   
+		background-color: white;
+	  }  
+	.technologie{
+
+		height: 100px;
+		
+		
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		}
+	.shaped-rectangle{
+		transform: translateX(70px);
+		margin-top: 10px;
+		position: absolute;
+		background: white;
+		height: 50px;
+		width: 140px;
+		clip-path: polygon(0 0, 100% 0%, 82% 99%, 0% 100%);
+		padding-left: 20px;
+		padding-top: 3px;
+		
+	    
+	}
+	.cercle{
+		clip-path: circle(50% at 50% 50%);
+		background: var(--gradiant) ;
+		width: 70px;
+		height: 70px;
+		position: absolute;
+		z-index: 1;
+		
+	}
+	.technologie-detail{
+		color: var(--text-secondary);
+		font-family:Airbnb Cereal App Book ;
+		font-size: 7px;
+	}
+	.technologie-title{
+		color: var(--bg-primary);
+		font-family: Airbnb Cereal App Bold ;
+		font-size: 15px;
+		
+	
+	}
+
+}
