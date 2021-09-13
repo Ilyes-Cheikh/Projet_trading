@@ -6,10 +6,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -40vh;
+  z-index: 2;
   max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
+  height: 700px;
+ 
 }
 .analytics-Text {
   border-radius: 20px !important;

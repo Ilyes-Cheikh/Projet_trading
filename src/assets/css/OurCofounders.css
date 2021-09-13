@@ -1,0 +1,46 @@
+@import "root.css";
+
+.Ourcofounders-container{
+background-color: #E8BB3E;
+height: 1200px;
+
+
+
+}
+.cofounders-presentation{
+   
+    width: 1300px;
+    padding-left: 150px;
+   
+    padding-top: 50px;
+
+}
+.confounders-text{
+    color: white;
+    font-family:Airbnb Cereal App  ;
+    font-size: 28px;
+    
+}
+.cofounders-images{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.blue-square{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    
+    width: 320px;
+    height: 320px;
+    background-color: var(--bg-primary);
+    z-index: 0;
+  
+}
+.wassim-image{
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -450px;
+   
+    height: 450px;
+    
+}
