@@ -61,6 +61,8 @@
   .AboutUs-Container {
     flex-direction: column;
     margin-top: 0;
+ 
+    
   }
   .analytics-Text {
     width: 90%;
@@ -68,12 +70,34 @@
     margin-left: auto;
     margin-right: auto;
     padding-top: 280px;
+    height:1000px;
   }
   .analytics-Image {
-    margin-bottom: -40vh;
-    width: 60%;
+    margin-bottom: -20vh;
+    width: 50%;
+    margin-left: -50%;
   }
   .Aboutus-Text{
       margin-left: 0;
+      font-size: 19px;
+      width: 100%;
+      margin-top: 0%;
+  }
+  .AboutUs-Title {
+    color: white !important;
+    font-family: "Airbnb Cereal App ";
+    text-align: center;
+    font-size: 25px;
+    margin-left: 15%;
+    margin-top: -40%;
+  }
+  .AboutUs-line {
+    margin-top: -2px;
+    color: white !important;
+    opacity: 100%;
+    width: 20%;
+    height: 3px !important;
+    margin-left:120px;
+    
   }
 }

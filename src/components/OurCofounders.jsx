@@ -19,7 +19,7 @@ export default function OurCofounders(){
             <div className="cofounders-images">
                 <div className="wassim">
                 <div className="blue-square"></div>
-                <img className="wassim-image" src={wassim} alt='wassim'/>
+                <img className="cofounder-image" src={wassim} alt='wassim'/>
                 <div className='Cofounder' >
                 <h1 className="name-cofounder">Wassim Chaouachi</h1>
                 <img src={Linkedin} alt='linkedin' className="linkedin-logo"/>
@@ -28,7 +28,7 @@ export default function OurCofounders(){
                 <div className="john">
                 <div className="blue-square"></div>
                 
-                <img className="john-image" src={john} alt='john' />
+                <img className="cofounder-image" src={john} alt='john' />
                 <div className='Cofounder' >
                 <h1 className="name-cofounder">John Sibony</h1>
                 <img src={Linkedin} alt='linkedin'  className="linkedin-logo"/>
