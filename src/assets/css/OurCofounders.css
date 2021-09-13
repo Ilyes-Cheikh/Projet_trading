@@ -3,16 +3,31 @@
 .Ourcofounders-container{
 background-color: #E8BB3E;
 height: 1200px;
-
-
-
+transform: translateY(-280px);
+z-index: 0;
+padding-top:150px;
+margin-bottom: -296px;
+}
+.ourcofounders-title{
+    text-align: center;
+    color: white;
+    font-family:Airbnb Cereal App  ;
+    font-size: 45px;
+    
+}
+.ourcofounders-line{
+    color: white;
+    width: 200px;
+    height: 4px !important;
+    opacity: 100%;
+    margin-left: 650px;
 }
 .cofounders-presentation{
    
     width: 1300px;
     padding-left: 150px;
+  
    
-    padding-top: 50px;
 
 }
 .confounders-text{
@@ -30,17 +45,37 @@ height: 1200px;
 .blue-square{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     
-    width: 320px;
-    height: 320px;
+    width: 340px;
+    height: 340px;
     background-color: var(--bg-primary);
-    z-index: 0;
   
 }
 .wassim-image{
     position: absolute;
     margin-left: -30px;
-    margin-top: -450px;
-   
-    height: 450px;
+    margin-top: -430px;
+    width: 430px;
+    height: 430px;
     
+}
+.john-image{
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -430px;
+    width: 430px;
+    height: 430px;
+}
+.Cofounder{
+    color: white;
+    font-family:Airbnb Cereal App  ;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+    
+}
+.linkedin-logo{
+    width: 50px;
+    height: 50px;
 }

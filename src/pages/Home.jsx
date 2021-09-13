@@ -10,7 +10,6 @@ export default function Home() {
     return (
         <>
             <HomeHeader/>
-            <HomeAboutUs/>
             <Test/>
             <OurTechnologies/>
             <News/>

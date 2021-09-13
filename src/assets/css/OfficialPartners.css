@@ -1,0 +1,30 @@
+@import "root.css";
+.officialpartners-container{
+    background-color: var(--text-secondary);
+    height: 500px;
+   
+}
+.partners-line{
+    color: var(--text-primary);
+    height: 1.5px !important;
+  
+}
+.partner-title{
+    text-align: center;
+    color: white;
+    font-family:Airbnb Cereal App  ;
+    font-size: 47px;
+}
+.partner-title-line{
+    color: white;
+    height: 3px !important;
+    width: 200px;
+    margin-left: 660px;
+    opacity: 100%;
+}
+.binance-logo{
+    width: 450px;
+    height: 150px;
+    margin-left: 550px;
+    margin-top: 100px;
+}

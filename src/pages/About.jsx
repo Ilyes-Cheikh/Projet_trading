@@ -5,6 +5,7 @@ import '../assets/css/About.css'
 import OurCofounders from '../components/OurCofounders'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import OfficialPartners from '../components/OfficialPartners'
 
 
 export default function About() {
@@ -13,6 +14,7 @@ export default function About() {
         <Navbar/>
         <HomeAboutUs/>
         <OurCofounders/>
+        <OfficialPartners/>
         <Footer/>
         </div>
         )
