@@ -1,10 +1,11 @@
 @import 'root.css';
 .footer-container{
-    height: 380px;
+    height: 350px;
     width: 100%;
     display: flex;
     background: var(--gradiant);
     padding: 50px;
+   
 }
 .footer-logo-container{
     padding-top: 50px;
@@ -14,17 +15,42 @@
 }
 .footer-col{
     margin: 0px 5%;
+  
+   
+    
     
     
 }
+.social-media{
+    display: flex;
+    flex-direction: row;
 
+}
 .footer-col h3{
-    font-family: Airbnb Cereal App book;
+    font-family: Airbnb Cereal App Bold ;
+    color: white;
+    font-size: 17px;
 }
 .footer-col p{
-    font-family: Airbnb Cereal App book;
+    font-family: Airbnb Cereal App Light ;
+    color: white;
+    font-size: 13px;
+    padding-left:10px;
 }
+.socialmedia-logo{
+    width: 28px;
 
+    
+}
+.contact-logo{
+    width: 20px;
+    height:20px;
+}
+.logo-info{
+    display: flex;
+    flex-direction: row;
+    
+}
 @media (max-width: 900px){
     .footer-container{
         width: 100%;

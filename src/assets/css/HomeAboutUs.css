@@ -1,6 +1,6 @@
 .analytics-Image {
-  width: 600px;
-  z-index: 500;
+  width: 500px !important;
+  z-index: 5;
   transform: translateX(100px);
 }
 .AboutUs-Container {
@@ -23,7 +23,7 @@
   background: var(--gradiant);
   width: 70%;
   padding-left: 300px;
-  height: 525px;
+  height: 450px;
   z-index: 2;
 }
 .Aboutus-Text {
@@ -56,26 +56,72 @@
   justify-content: center;
   flex-direction: column;
 }
-
-@media screen and (max-width: 980px) {
-  .AboutUs-Container {
-    flex-direction: column;
-    margin-top: 0;
+@media screen and (max-width: 1430px){
+  .analytics-Text {
+    border-radius: 20px !important;
+    padding-top: 40px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    margin-left: -270px;
+    background: var(--gradiant);
+    width: 70%;
+    padding-left: 300px;
+    height: 42%;
+    z-index: 2;
+  }
+  .analytics-Image {
+    width: 30% !important;
+    z-index: 5;
+    transform: translateX(2vw);
+  }
  
+
+  .Aboutus-Text {
+    margin-top: 20px;
+    margin-left: 100px;
+    color: white;
+    font-family: "Airbnb Cereal App";
+    font-size: 1.3vw;
+    width:80% ;
+  }
+  .AboutUs-line {
+    margin-top: -2px;
+    color: white !important;
+    opacity: 100%;
+    width: 8vw;
+    height: 3px !important;
+    margin-left:50%;
     
   }
+
+}
+@media screen and (max-width: 980px) {
+  .AboutUs-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1000px;
+   
+  }
+  
+  
   .analytics-Text {
     width: 90%;
     padding-left: 60px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 280px;
-    height:1000px;
+    padding-top: 40%;
+    height:43%;
   }
   .analytics-Image {
-    margin-bottom: -20vh;
-    width: 50%;
-    margin-left: -50%;
+    
+    width: 40% !important;
+    transform: translateY(20%);
   }
   .Aboutus-Text{
       margin-left: 0;
@@ -87,8 +133,8 @@
     color: white !important;
     font-family: "Airbnb Cereal App ";
     text-align: center;
-    font-size: 25px;
-    margin-left: 15%;
+    font-size: 33px;
+    margin-left: 0%;
     margin-top: -40%;
   }
   .AboutUs-line {
@@ -97,7 +143,82 @@
     opacity: 100%;
     width: 20%;
     height: 3px !important;
-    margin-left:120px;
+    margin-left:40%;
     
   }
 }
+@media screen and (max-width: 725px){
+  .analytics-Text{
+    height: 55%;
+  }
+}
+.analytics-Image{
+  width: 50%;
+}
+@media screen and (max-width: 560px){
+  .analytics-Text{
+    height: 55%;
+  }
+  .Aboutus-Text{
+    font-size: 18px;
+  }
+  .AboutUs-Title {
+    
+    font-size: 26px;
+    
+  }
+}
+@media screen and (max-width: 485px) {
+  .Aboutus-Text{
+    font-size: 18px;
+  }
+  .AboutUs-Title {
+    
+    font-size: 23px;
+    
+  }
+  .analytics-Text{
+    height: 60%;
+  }
+}
+  @media screen and (max-width: 450px){
+    .Aboutus-Text{
+      font-size: 4vw;
+    }
+    .AboutUs-Title {
+      
+      font-size: 23px;
+      
+    }
+    .analytics-Text{
+      height: 60%;
+    }
+  
+}
+@media screen and (max-width: 385px) {
+  .AboutUs-Title {
+      
+    font-size: 22px;
+    
+  }
+  .analytics-Text{
+    height: 63%;
+  }
+  .Aboutus-Text{
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 365px) {
+  .AboutUs-Title {
+      
+    font-size: 20px;
+    
+  }
+  .analytics-Text{
+    height: 65%;
+  }
+  .Aboutus-Text{
+    font-size: 4.4vw;
+  }
+}
+

@@ -2,7 +2,7 @@
 
 .Ourcofounders-container{
 background-color: #E8BB3E;
-height: 1200px;
+height: 1000px;
 transform: translateY(-280px);
 z-index: 0;
 padding-top:150px;
@@ -33,7 +33,7 @@ margin-bottom: -296px;
 .confounders-text{
     color: white;
     font-family:Airbnb Cereal App  ;
-    font-size: 28px;
+    font-size: 23px;
     
 }
 .cofounders-images{
@@ -45,25 +45,18 @@ margin-bottom: -296px;
 .blue-square{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     
-    width: 340px;
-    height: 340px;
-    background-color: var(--bg-primary);
+    width: 250px;
+    height: 250px;
+    background : var(--gradiant)
   
 }
+
 .cofounder-image{
     position: absolute;
-    margin-left: -30px;
-    margin-top: -430px;
-    width: 430px;
-    height: 430px;
-    
-}
-.cofounder-image{
-    position: absolute;
-    margin-left: -30px;
-    margin-top: -430px;
-    width: 430px;
-    height: 430px;
+    margin-left: -50px;
+    margin-top: -350px;
+    width: 350px;
+    height: 350px;
 }
 .Cofounder{
     color: white;
@@ -74,15 +67,42 @@ margin-bottom: -296px;
     justify-content: space-between;
     width: 400px;
     
+    
+}
+.name-cofounder{
+    font-size: 25px;
 }
 .linkedin-logo{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
+    margin-right: 100px ;
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1470px){
+    .cofounders-presentation{
+   
+        width:90%;
+        padding-left: 150px;
+        
+      
+       
+    
+    }
+    .confounders-text{
+       
+        font-size: 22px;
+        
+    }
+    .ourcofounders-line{
+        
+        width: 20%;
+      
+        margin-left: 40%;
+    }
+}
+@media screen and (max-width: 980px){
     .Ourcofounders-container{
     height: 1300px;
-    transform: translateY(-50px);
+    transform: translateY(-10%);
 z-index: 0;
 padding-top:150px;
 margin-bottom: -296px;
@@ -107,28 +127,21 @@ margin-bottom: -296px;
         padding-left:35%;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
     }
+   
     .cofounder-image{
         position: absolute;
         margin-left: -30px;
-        margin-top: -430px;
-        width: 30%;
-        height: 30%;
-        
-    }
-    .cofounder-image{
-        position: absolute;
-        margin-left: -30px;
-        margin-top: -200px;
-        width: 200px;
-        height: 200px;
+        margin-top: -250px;
+        width: 250px;
+        height: 250px;
     }
     .blue-square{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
         
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
         background-color: var(--bg-primary);
       
     }
@@ -140,15 +153,141 @@ margin-bottom: -296px;
         flex-direction: row;
         justify-content: space-between;
         width: 80%;
-        padding-bottom: 40%;
         
         
+        
+    }
+    .john{
+        margin-top: 80px;
     }
     .name-cofounder{
         font-size: 20px;
     }
     .linkedin-logo{
+        width: 30px;
+        height: 30px;
+        margin-right: 50%;
+    }
+    .ourcofounders-title{
+       
+        font-size: 40px;
+        
+    }
+    .ourcofounders-line{
+        
         width: 20%;
-        height: 20%;
+      
+        margin-left: 40%;
+    }
+    .ourcofounders-title{
+        
+        font-size: 40px;
+        
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .Ourcofounders-container{
+       
+        transform: translateY(-13%);
+   
+        }
+    .blue-square{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        
+        width: 180px;
+        height: 180px;
+        background-color: var(--bg-primary);
+      
+    }
+    .cofounder-image{
+        position: absolute;
+        margin-left: -30px;
+        margin-top: -230px;
+        width: 230px;
+        height: 230px;
+    }
+    .cofounders-images{
+        padding-top: 10%;
+        padding-left:30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .confounders-text{
+        color: white;
+        font-family:Airbnb Cereal App  ;
+        font-size: 20px;
+        
+    }
+    .ourcofounders-title{
+        
+        font-size: 35px;
+        
+    }
+    .linkedin-logo{
+        width: 30px;
+        height: 30px;
+        margin-right: 130px ;
+    }
+    @media screen and (max-width: 450px){
+        .Ourcofounders-container{
+       
+            transform: translateY(-13%);
+       
+            }
+        .confounders-text{
+            color: white;
+            font-family:Airbnb Cereal App  ;
+            font-size: 18px;
+            
+        }
+        .cofounders-images{
+            padding-top: 10%;
+            padding-left:25%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .linkedin-logo{
+            width: 25px;
+            height: 25px;
+            margin-right: 25%;
+        }
+    }
+    @media screen and (max-width:370px){
+        .blue-square{
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            
+            width: 150px;
+            height: 150px;
+            background-color: var(--bg-primary);
+          
+        }
+        .cofounder-image{
+            position: absolute;
+            margin-left: -30px;
+            margin-top: -200px;
+            width: 200px;
+            height: 200px;
+        }
+        .ourcofounders-title{
+        
+            font-size: 30px;
+            
+        }
+    }
+    @media screen and (max-width:300px){
+        .linkedin-logo{
+            width: 23px;
+            height: 23px;
+            margin-right: 15%;
+        }
+        .ourcofounders-title{
+        
+            font-size: 25px;
+            
+        }
     }
 }
